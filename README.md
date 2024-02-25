@@ -9,7 +9,7 @@ El desafío queda expresado en este [Documento PDF](01_desafio_soft_jobs.pdf) do
 ## ✅ Ejemplo de request permitidos:
 ### Register user 
 ```http request
-POST {{HOST}}:{{PORT}}/usuarios
+POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 
@@ -25,7 +25,7 @@ Content-Type: application/json
 
 ### Login user
 ```http request
-POST {{HOST}}:{{PORT}}/login
+POST http://localhost:3000/login
 Content-Type: application/json
 
 {
@@ -38,7 +38,7 @@ Content-Type: application/json
 
 ### Get user details 
 ```http request
-GET {{HOST}}:{{PORT}}/usuarios
+GET http://localhost:3000/usuarios
 Authorization: Bearer {{AUTH_TOKEN}}
 ```
 
