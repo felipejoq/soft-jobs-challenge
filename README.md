@@ -83,7 +83,7 @@ CREATE TABLE usuarios (
 );
 ```
 
-5. Renombrar el archivo .env.example a .env y editar sus valores
+5. Renombrar el archivo .env.template a .env y editar sus valores
 
 ```dotenv
 PORT=3000
