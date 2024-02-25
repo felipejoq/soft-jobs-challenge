@@ -14,7 +14,7 @@ Content-Type: application/json
 
 
 {
-  "email": "docente@desafiolatam.com",
+  "email": "test@test.com",
   "password": "123456",
   "rol": "Full Stack Developer",
   "lenguage": "JavaScript"
@@ -29,7 +29,7 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-  "email": "docente@desafiolatam.com",
+  "email": "test@test.com",
   "password": "123456"
 }
 ```
