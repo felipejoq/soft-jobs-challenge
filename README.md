@@ -39,7 +39,7 @@ Content-Type: application/json
 ### Get user details 
 ```http request
 GET http://localhost:3000/usuarios
-Authorization: Bearer {{AUTH_TOKEN}}
+Authorization: Bearer "token_here"
 ```
 
 > Retorna los detalles del usuario menos su password.
