@@ -21,12 +21,12 @@ export class AuthMiddleware {
 
       const payload = await JwtPlugin.validateToken({token});
 
-      if (!payload) return res.status(401).json({ error: 'Invalid token' })
+      if (!payload) return res.status(401).json({ error: 'El token no es válido' })
 
       const user = await userService.getUserByEmail({userEmail: payload.email});
       delete user.password
 
-      if (!user) return res.status(401).json({ error: 'Invalid token - user' });
+      if (!user) return res.status(401).json({ error: 'El token no es válido' });
 
       req.body.user = user;
 
