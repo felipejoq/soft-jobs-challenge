@@ -101,3 +101,8 @@ PGPORT=5432
 ```bash
 npm run dev
 ```
+7. Visitar localhost
+
+```
+http://localhost:3000/
+```
